@@ -1,0 +1,256 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Comfortaa', cursive;
+}
+body {
+    background-image: url(https://wallpaperaccess.com/full/159865.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.cart {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 10%;
+    position: sticky;
+    top: 0;
+    right: 0;
+    border-radius: 10px;
+    float: right;
+    z-index: 1;
+    margin: 10px;
+    
+}
+.cart a {
+    text-decoration: none;
+    font-size: 6vw;
+    color: white;
+    margin-left: 20px;
+    text-align: center;
+}
+.navbar{
+    font-size: 3.22vw;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+li {
+    float: left;
+    width: 25%;
+}
+li a {
+    background-color: white;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 1vw 4.14vw;
+    border: 2px solid rgb(11, 140, 46); 
+    border-radius: 10px;
+    transition-duration: .4s;
+}
+li a:hover{
+    background-color: rgb(11, 140, 46);
+    color: white;
+}
+.active {
+    text-decoration: underline;
+}
+.phrase {
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+.phrase_cont {
+    text-align: center;
+    animation: myphrase 20s infinite;
+}
+.phrase_text {
+    color: white;
+    font-size: 2vw;
+}
+@keyframes myphrase {
+    0% {
+        transform: translate(75vw, 0vw);
+    }
+    100% {
+        transform: translate(-75vw, 0vw);
+    }
+}
+.prod_sect {
+    background-color: rgb(184, 209, 174);
+    padding: 3em 1.5em;
+    border-radius: 15px;
+}
+.ft_prod {
+    font-size: 2.5vw;
+}
+.prod_cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 3%;
+    row-gap: 3vw;
+}
+.prod_sect .prod_card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2vw;
+    text-align: center;
+    border: 2px solid rgb(11, 140, 46);
+}
+.prod_card .prod_title {
+    font-size: 2.3vw;
+    font-weight: bold;
+}
+.prod_card img {
+    max-width: 75%;
+    height: 18vw;
+}
+.prod_card .prod_text {
+    font-size: 2.3vw;
+    margin-bottom: .5em;
+}
+.prod_btn {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 2.3vw;
+    border: 2px solid #597d35;
+    border-radius: 6px;
+    transition-duration: .4s;
+    font-weight: bold;
+    padding-inline: 5vw;
+    padding-block: 3px;
+}
+.prod_btn:hover {
+    background-color: #597d35;
+    color: white;
+    box-shadow: 0px 5px 5px gray;
+}
+.char_sect {
+    background-color: #adc3b7;
+    padding: 3em;
+    border-radius: 15px;
+}
+.char_head {
+    font-size: 2.3vw;
+    font-weight: bold;
+}
+.char_sect .char_card {
+    text-align: center;
+    padding-top: 1.5vw;
+}
+.char_desc {
+    font-size: 2.5vw;
+}
+.char_link {
+    font-size: 2.5vw;
+}
+.footer_cont {
+    padding: 3vw;
+    background-color: #01796f;
+    color: white;
+    font-size: 2vw;
+}
+.footer_search a {
+    color: white;
+}
+.footer_links img {
+    width: 4vw;
+    padding-right: 2vw;
+}
+.btt {
+    float: right;
+    padding: .5vh 1vw;
+    margin: 2vw;
+    background-color: white;
+    text-decoration: none;
+    border: 2px solid #01796f;
+    border-radius: 15px;
+    transition-duration: .4s;
+    font-weight: bold;
+    font-size: 2.6vw;
+}
+.btt:hover {
+    background-color: #01796f;
+    color: white;
+}
+/* Mobile version */
+@media (max-width: 550px) {
+    .cart a {
+        text-decoration: none;
+        font-size: 10vw;
+        color: white;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .navbar{
+        font-size: 4vw;
+    }
+    .prod_cont {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 3%;
+        row-gap: 3vw;
+    }
+    .prod_sect .prod_card {
+        background-color: white;
+        border-radius: 10px;
+        padding: 3vw;
+        text-align: center;
+        border: 2px solid rgb(11, 140, 46);
+    }
+    .prod_card .prod_title {
+        font-size: 5vw;
+        font-weight: bold;
+    }
+    .prod_card img {
+        max-width: 100%;
+        height: 75vw;
+    }
+    .prod_card .prod_text {
+        font-size: 5vw;
+        margin-bottom: .5em;
+    }
+    .prod_btn {
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        font-size: 5vw;
+        border: 2px solid #597d35;
+        border-radius: 6px;
+        transition-duration: .4s;
+        font-weight: bold;
+        padding-inline: 5vw;
+        padding-block: 3px;
+    }
+    .char_sect {
+        background-color: #adc3b7;
+        padding: 2rem;
+        border-radius: 15px;
+    }
+    .char_head {
+        font-size: 3vw;
+        font-weight: bold;
+    }
+    .char_sect .char_card {
+        text-align: center;
+        padding-top: 1.5vw;
+    }
+    .char_desc {
+        font-size: 3.5vw;
+    }
+    .char_link {
+        font-size: 3.5vw;
+    }
+}

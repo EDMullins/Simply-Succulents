@@ -1,0 +1,56 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Comfortaa', cursive;
+}
+body {
+    background-color: #adc3b7;
+}
+.checkout_cont {
+    margin: 3rem;
+    background-color: white;
+    border-radius: 10px;
+}
+.home_btn {
+    padding: 2rem;
+    font-size: 2.5vw;
+}
+.title {
+    padding-inline: 2rem;
+    font-size: 2.5vw;
+}
+.form {
+    padding: 2rem;
+    font-size: 2.3vw;
+}
+input[type=text] {
+    font-size: 2vw;
+    width: 75%;
+    padding: 1vw 2vw;
+    margin: 5px 20px;
+    border-radius: 5px;
+}
+input[type=submit] {
+    font-family: inherit;
+    width: 50%;
+    font-size: 2.5vw;
+    background-color: rgb(11, 140, 46);
+    color: white;
+    padding: 1vw 2vw;
+    margin: 0px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: rgb(37, 173, 73);
+}
+.final_msg {
+    padding: 2rem;
+    text-align: center;
+    font-size: 2.5vw;
+}
+.notif_links {
+    text-align: center;
+    padding-bottom: 1.5rem;
+    font-size: 2vw;
+}

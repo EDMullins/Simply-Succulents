@@ -1,0 +1,204 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Comfortaa', cursive;
+}
+body {
+    background-color: #adc3b7;
+}
+.cart_cont {
+    margin: 3rem;
+    background-color: white;
+    border-radius: 10px;
+}
+.home_btn {
+    padding: 2rem;
+    font-size: 2.5vw;
+}
+.cart_title {
+    padding-inline: 2rem;
+    font-size: 2.5vw;
+}
+.prod {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 2.5vw;
+    border-bottom: 2px solid grey;
+}
+.empty_cart {
+    padding: 2rem;
+    font-size: 2.3vw;
+}
+.prod_img {
+    padding: 30px;
+    flex: 20%;
+}
+.prod_img img {
+    width: 100%;
+}
+.prod_name {
+    padding: 10px;
+    flex: 20%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.quantity_box {
+    flex: 20%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.prod_price {
+    padding: 10px;
+    flex: 20%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.prod_add {
+    color: green;
+    text-decoration: none;
+    padding: 10px;
+    flex: 20%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 4vw;
+}
+abbr {
+    text-decoration: none;
+}
+.total_cont {
+    padding-inline: 2.5rem;
+    padding-block: .5rem;
+    text-align: right;
+}
+.total_title {
+    display: inline-block;
+    font-size: 3vw;
+    vertical-align: middle;
+}
+.total_price {
+    display: inline-block;
+    font-size: 2.75vw;
+    padding: 10px;
+    vertical-align: middle;
+}
+.cart_footer {
+    display: flex;
+    font-size: 2.3vw;
+    padding-inline: 2rem;
+    flex-direction: row;
+}
+.remove_all {
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(11, 140, 46);
+    transition-duration: .4s;
+}
+.remove_all_button {
+    flex: 30%;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: .4s;
+    margin-bottom: 20px;
+}
+.remove_all:hover{
+    background-color: rgb(11, 140, 46);
+    color: white;
+}
+.space {
+    flex: 70%;
+}
+.checkout {
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(11, 140, 46);
+    transition-duration: .4s;
+}
+.checkout_button {
+    flex: 30%;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: .4s;
+}
+.checkout:hover{
+    background-color: rgb(11, 140, 46);
+    color: white;
+}
+.subtotal {
+    padding: 20px;
+    padding-bottom: 30px;
+}
+.sub_title {
+    float: right;
+}
+.sub_number {
+    float: right;
+    position: relative;
+}
+@media (max-width: 550px) {
+    .cart_cont {
+        margin: 1rem;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .prod {
+        flex-direction: column;
+        font-size: 1em;
+    }
+    .prod_name {
+        text-align: center;
+    }
+    .quantity_box {
+        text-align: center;
+    }
+    .prod_price {
+        text-align: center;
+    }
+    .prod_add {
+        text-align: center;
+        padding: 15px;
+        font-size: 2em;
+    }
+    .total_title {
+        display: inline-block;
+        font-size: 5vw;
+        vertical-align: middle;
+    }
+    .total_price {
+        display: inline-block;
+        font-size: 4.5vw;
+        padding: 10px;
+        vertical-align: middle;
+    }
+    .cart_footer {
+        display: flex;
+        font-size: 5vw;
+        padding-inline: 2rem;
+    }
+    .remove_all_button {
+        flex: 40%;
+        color: #000;
+        text-align: center;
+        text-decoration: none;
+        transition-duration: .4s;
+        margin-bottom: 20px;
+    }
+    .space {
+        flex: 20%;
+    }
+    .checkout_button {
+        flex: 40%;
+        color: #000;
+        text-align: center;
+        text-decoration: none;
+        transition-duration: .4s;
+    }
+}
