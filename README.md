@@ -3,7 +3,7 @@ A Succulent Store
 <br>
 Chester County High School / Ethan Mullins, Heather Mcmahan
 <br><br>
-Ethan: All HTML, CSS, and PHP, picked products.<br>I want to go to college for this exact stuff, I've fallen in love with HTML, PHP, and CSS in the years i have done it, I love the problem solving involved in making a mock website (tho frustrating sometimes)
+Ethan: All HTML, CSS, and PHP, picked products.<br>I want to go to college for this exact stuff, I've fallen in love with HTML, PHP, and CSS in the years I have done it, I love the problem solving involved in making a mock website (tho frustrating sometimes)
 <br><br>
 Heather: Color Scheme, Merch, picked products, logo, website design.<br>I want to go to college for some type of design and this website gave me great experience in the collaboration aspects of design.
 <br><br>
