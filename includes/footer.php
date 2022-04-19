@@ -3,7 +3,7 @@
         <div class="footer_search">
             <p>Looking for more?</p>
             <a href="index.php">Home</a>
-            <a href="shop.php">Shop</a>
+            <a href="shop.php">Plants</a>
             <a href="extra.php">Extras</a>
             <a href="review.php">Reviews</a>
         </div>
