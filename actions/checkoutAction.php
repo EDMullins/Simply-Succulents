@@ -19,4 +19,7 @@
             <a href="index.php">Continue Shopping</a>
         </div>
     </div>
+<?php
+    unset($_SESSION['cart']);
+?>
 </body>
