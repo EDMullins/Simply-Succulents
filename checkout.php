@@ -42,5 +42,8 @@
             <input type="submit" name="submit" value="Submit">
         </form>
     </div>
+<?php
+    unset($_SESSION['cart']);
+?>
 </body>
 </html>
